@@ -400,3 +400,64 @@ render();
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Polityka Prywatności – MEGARABATY</title>
+</head>
+<body>
+
+<h1>Polityka Prywatności</h1>
+
+<p>Serwis MEGARABATY szanuje prywatność użytkowników.</p>
+
+<h2>1. Administrator danych</h2>
+<p>Administratorem danych jest właściciel serwisu MEGARABATY.</p>
+
+<h2>2. Dane osobowe</h2>
+<p>Serwis nie zbiera danych osobowych użytkowników.</p>
+
+<h2>3. Pliki cookies</h2>
+<p>Strona korzysta z plików cookies w celach statystycznych i reklamowych.</p>
+
+<h2>4. Google AdSense</h2>
+<p>Na stronie mogą być wyświetlane reklamy Google AdSense, które wykorzystują pliki cookies do personalizacji reklam.</p>
+
+<h2>5. Linki afiliacyjne</h2>
+<p>Strona zawiera linki afiliacyjne prowadzące do sklepów zewnętrznych.</p>
+
+<h2>6. Kontakt</h2>
+<p>W sprawach związanych z polityką prywatności prosimy o kontakt mailowy.</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Regulamin – MEGARABATY</title>
+</head>
+<body>
+
+<h1>Regulamin serwisu MEGARABATY</h1>
+
+<h2>1. Informacje ogólne</h2>
+<p>Serwis MEGARABATY udostępnia informacje o kodach rabatowych.</p>
+
+<h2>2. Odpowiedzialność</h2>
+<p>Serwis nie gwarantuje poprawności ani aktualności kodów rabatowych.</p>
+
+<h2>3. Zewnętrzne serwisy</h2>
+<p>Serwis zawiera linki do stron trzecich, za które nie ponosi odpowiedzialności.</p>
+
+<h2>4. Postanowienia końcowe</h2>
+<p>Korzystanie z serwisu oznacza akceptację regulaminu.</p>
+
+</body>
+</html>
+<p>
+<a href="polityka-prywatnosci.html" style="color:white;">Polityka Prywatności</a> |
+<a href="regulamin.html" style="color:white;">Regulamin</a>
+</p>
+
