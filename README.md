@@ -460,4 +460,23 @@ render();
 <a href="polityka-prywatnosci.html" style="color:white;">Polityka Prywatności</a> |
 <a href="regulamin.html" style="color:white;">Regulamin</a>
 </p>
+<h2>O MEGARABATY</h2>
+<p>Tutaj tekst… min. 500–800 słów.</p>
+<h2>Jak działają kody rabatowe</h2>
+<p>Treść instruktażowa 400–800 słów</p>
+<h2>Dlaczego warto korzystać z kodów</h2>
+<p>Tekst… dodatkowe akapity</p>
+<section>
+  <h2>O MEGARABATY</h2>
+  <p>MEGARABATY to strona poświęcona kody rabatowym i promocjom online. Naszym celem jest...
+  (tu min. kolejnych ~300–400 słów opisujących historię, cel strony, jak działają kody, jak korzystać itp.)
+  </p>
+</section>
+<section>
+  <h2>Jak działają kody rabatowe</h2>
+  <p>Kody rabatowe pozwalają na obniżenie ceny zakupów w sklepach internetowych...
+  (tu wpisz min. ~300–500 słów o mechanizmie, przykładach, wskazówkach itp.)
+  </p>
+</section>
+
 
