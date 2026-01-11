@@ -478,5 +478,92 @@ render();
   (tu wpisz min. ~300–500 słów o mechanizmie, przykładach, wskazówkach itp.)
   </p>
 </section>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MEGARABATY – Kody rabatowe online</title>
+<style>
+    body { font-family: Arial, sans-serif; background-color: #f0f4f8; color: #03396c; margin: 0; padding: 0;}
+    header { background-color: #005b96; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #03396c; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold;}
+    nav a:hover { text-decoration: underline; }
+    section { padding: 20px; max-width: 900px; margin: auto; background-color: white; margin-top: 20px; border-radius: 8px; }
+    h2 { color: #005b96; }
+    footer { background-color: #03396c; color: white; text-align: center; padding: 15px; margin-top: 20px;}
+    .kod { background-color: #e1f5fe; padding: 10px; border-radius: 5px; margin-bottom: 10px; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>MEGARABATY – Kody rabatowe online</h1>
+</header>
+
+<nav>
+    <a href="#kody-dnia">Kody dnia</a>
+    <a href="#kody-miesiaca">Kody miesiąca</a>
+    <a href="#o-stronie">O stronie</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="kody-dnia">
+    <h2>Kody dnia</h2>
+    <div class="kod">
+        <strong>Zalando:</strong> KOD20 – 20% rabatu <a href="#">Przejdź do sklepu</a>
+    </div>
+    <div class="kod">
+        <strong>Media Expert:</strong> ME15 – 15% rabatu <a href="#">Przejdź do sklepu</a>
+    </div>
+    <div class="kod">
+        <strong>Allegro:</strong> AL10 – 10% rabatu <a href="#">Przejdź do sklepu</a>
+    </div>
+</section>
+
+<section id="kody-miesiaca">
+    <h2>Kody miesiąca</h2>
+    <div class="kod">
+        <strong>Empik:</strong> EMP25 – 25% rabatu <a href="#">Przejdź do sklepu</a>
+    </div>
+    <div class="kod">
+        <strong>eObuwie:</strong> EO20 – 20% rabatu <a href="#">Przejdź do sklepu</a>
+    </div>
+    <div class="kod">
+        <strong>CCC:</strong> CCC15 – 15% rabatu <a href="#">Przejdź do sklepu</a>
+    </div>
+</section>
+
+<section id="o-stronie">
+    <h2>O stronie MEGARABATY</h2>
+    <p>MEGARABATY to serwis poświęcony kodom rabatowym, promocjom i ofertom specjalnym w sklepach internetowych. Naszym głównym celem jest umożliwienie użytkownikom oszczędzania pieniędzy podczas zakupów online poprzez aktualne i sprawdzone kody rabatowe. Każdego dnia sprawdzamy najlepsze promocje w popularnych sklepach takich jak Zalando, Media Expert, Allegro, Empik, eObuwie czy CCC. Dbamy o to, aby wszystkie kody były aktualne i działały w momencie publikacji, co pozwala uniknąć frustracji użytkowników.</p>
+    <p>Strona zawiera zarówno kody dnia, jak i kody miesiąca. Dodatkowo publikujemy instrukcje, jak korzystać z kodów rabatowych, aby maksymalnie wykorzystać potencjalne zniżki. Nasz serwis jest aktualizowany regularnie, aby użytkownicy mogli cieszyć się najlepszymi ofertami w sieci. W MEGARABATY wierzymy, że każdy zakup online może być tańszy, jeśli wie się, gdzie szukać najlepszych promocji.</p>
+    <p>Jesteśmy niezależnym serwisem, który współpracuje z partnerami afiliacyjnymi w celu udostępnienia kodów rabatowych. Wszelkie kliknięcia w linki afiliacyjne wspierają utrzymanie strony i rozwój nowych funkcji, takich jak koszyk kodów czy zakładki tematyczne. Nasza misja jest prosta – pomagać użytkownikom oszczędzać i robić zakupy świadomie, w wygodny sposób i bez przepłacania.</p>
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Masz pytania lub chcesz się skontaktować? Napisz do nas na adres: <strong>kontakt@megarabaty.pl</strong></p>
+    <p>Postaramy się odpowiedzieć w ciągu 24 godzin. Jesteśmy otwarci na sugestie dotyczące nowych kodów rabatowych i partnerów do współpracy.</p>
+</section>
+
+<section id="polityka-prywatnosci">
+    <h2>Polityka prywatności</h2>
+    <p>Serwis MEGARABATY szanuje prywatność użytkowników i dba o ochronę ich danych. Nie zbieramy danych osobowych poza tymi, które są niezbędne do realizacji afiliacji. Strona wykorzystuje pliki cookies w celach statystycznych, funkcjonalnych oraz reklamowych. Możliwe jest wyświetlanie reklam Google AdSense, które używają plików cookies w celu personalizacji treści. Polityka prywatności może być aktualizowana.</p>
+</section>
+
+<section id="regulamin">
+    <h2>Regulamin</h2>
+    <p>Korzystając ze strony MEGARABATY, użytkownik akceptuje, że strona publikuje kody rabatowe w celach informacyjnych. Administrator nie odpowiada za niepoprawne lub nieaktualne kody. Wszystkie linki prowadzą do partnerów afiliacyjnych. Zakazane jest kopiowanie treści bez zgody właściciela serwisu. Regulamin może być aktualizowany w każdej chwili, a zmiany będą publikowane na tej stronie.</p>
+</section>
+
+<footer>
+    <p>© 2026 MEGARABATY. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
+
 
 
