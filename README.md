@@ -1,569 +1,260 @@
+/index.html
+/o-nas.html
+/kontakt.html
+/polityka-prywatnosci.html
+/regulamin.html
+/css/style.css
+/js/app.js
+<section>
+<h2>O serwisie MEGARABATY</h2>
+
+<p>MEGARABATY to niezależny serwis internetowy poświęcony wyszukiwaniu, publikowaniu oraz analizowaniu kodów rabatowych i promocji dostępnych w sklepach internetowych. Naszym celem jest pomaganie użytkownikom w oszczędzaniu pieniędzy podczas zakupów online poprzez dostęp do aktualnych, sprawdzonych i czytelnie opisanych ofert promocyjnych.</p>
+
+<p>Strona powstała z myślą o osobach, które chcą kupować świadomie i nie przepłacać. Każdego dnia monitorujemy popularne sklepy internetowe, porównujemy dostępne promocje oraz selekcjonujemy kody rabatowe, które mogą realnie obniżyć wartość koszyka zakupowego. Publikujemy zarówno kody dnia, jak i oferty długoterminowe, dzięki czemu użytkownicy mogą wracać do serwisu regularnie.</p>
+
+<p>W MEGARABATY stawiamy na przejrzystość i prostotę. Każdy kod rabatowy jest jasno opisany, a użytkownik może w łatwy sposób skopiować kod lub przejść bezpośrednio do sklepu partnerskiego. Staramy się ograniczać zbędne elementy i skupić się na tym, co najważniejsze – realnej wartości dla odwiedzających.</p>
+
+<p>Serwis nie jest oficjalnym sklepem internetowym i nie prowadzi sprzedaży produktów. Działa jako platforma informacyjna, która zbiera i prezentuje dostępne promocje. Część linków może mieć charakter afiliacyjny, co oznacza, że w przypadku przejścia do sklepu i dokonania zakupu możemy otrzymać prowizję. Nie ma to jednak wpływu na cenę produktu dla użytkownika.</p>
+
+<p>MEGARABATY to projekt rozwijany z myślą o długoterminowej wartości. Regularnie aktualizujemy treści, dodajemy nowe sklepy oraz dbamy o zgodność strony z obowiązującymi przepisami i wytycznymi wyszukiwarek internetowych.</p>
+</section>
+<section>
+<h2>Jak działają kody rabatowe</h2>
+
+<p>Kody rabatowe to specjalne ciągi znaków, które po wpisaniu w odpowiednie pole podczas składania zamówienia w sklepie internetowym pozwalają uzyskać zniżkę. Zniżka może mieć formę procentową, kwotową, darmowej dostawy lub dodatkowego bonusu do zamówienia.</p>
+
+<p>Aby skorzystać z kodu rabatowego, należy skopiować go ze strony MEGARABATY, przejść do wybranego sklepu internetowego, dodać produkty do koszyka, a następnie wkleić kod w polu „kod rabatowy” lub „kod promocyjny” przed finalizacją zamówienia.</p>
+
+<p>Niektóre kody rabatowe są ograniczone czasowo lub przeznaczone tylko dla określonych kategorii produktów. Z tego powodu warto zawsze zapoznać się z opisem oferty oraz warunkami promocji. Jeśli kod nie działa, możliwe że wygasł lub nie spełnia warunków promocji.</p>
+
+<p>W MEGARABATY staramy się publikować wyłącznie oferty, które są aktualne w momencie dodania. Należy jednak pamiętać, że sklepy internetowe mogą zmieniać warunki promocji bez wcześniejszego powiadomienia.</p>
+
+<p>Korzystanie z kodów rabatowych jest całkowicie bezpieczne i nie wymaga podawania dodatkowych danych osobowych poza tymi, które są standardowo wymagane przez dany sklep internetowy.</p>
+</section>
+<section>
+<h2>Finansowanie i transparentność</h2>
+
+<p>Utrzymanie i rozwój serwisu MEGARABATY wiąże się z kosztami technicznymi, hostingowymi oraz czasem poświęconym na aktualizację treści. W celu pokrycia tych kosztów strona może korzystać z programów partnerskich oraz wyświetlać reklamy, w tym reklamy Google AdSense.</p>
+
+<p>Linki afiliacyjne oznaczają, że w przypadku przejścia do sklepu i dokonania zakupu możemy otrzymać niewielką prowizję od partnera. Nie wpływa to w żaden sposób na cenę produktu ani warunki zakupów dla użytkownika.</p>
+
+<p>Reklamy są dobierane automatycznie przez zewnętrzne systemy reklamowe i mogą być personalizowane na podstawie plików cookies. Użytkownik ma możliwość zarządzania ustawieniami prywatności zgodnie z obowiązującymi przepisami.</p>
+
+<p>Stawiamy na uczciwość, przejrzystość oraz zgodność z obowiązującym prawem i wytycznymi Google.</p>
+</section>
+/index.html                → strona główna (kody + skrót)
+/kody-dnia.html            → SEO
+/kody-miesiaca.html        → SEO
+/o-nas.html                → E-E-A-T
+/jak-dzialaja-kody.html    → edukacja (SEO + AdSense)
+/kontakt.html              → zaufanie
+/polityka-prywatnosci.html → obowiązkowe
+/regulamin.html            → obowiązkowe
 <!DOCTYPE html>
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROMKI – Aktualne kody rabatowe i promocje online</title>
 
-<title>MEGARABATY – Kody dnia i miesiąca</title>
-<meta name="description" content="MEGARABATY – najlepsze kody rabatowe dnia i miesiąca. Sprawdzone promocje do sklepów online.">
+<meta name="description" content="PROMKI – aktualne kody rabatowe, promocje dnia i miesiąca. Sprawdzone rabaty do popularnych sklepów online w Polsce.">
 
 <style>
 :root{
-    --blue:#0d6efd;
-    --blue-dark:#084298;
-    --light:#f4f8ff;
+  --blue:#0d6efd;
+  --blue-dark:#084298;
+  --bg:#f4f8ff;
+  --radius:14px;
 }
 
 body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background:var(--light);
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--bg);
+  color:#222;
 }
 
-/* HEADER */
 header{
-    background:linear-gradient(90deg,var(--blue),var(--blue-dark));
-    color:#fff;
-    padding:30px 15px;
-    text-align:center;
+  background:linear-gradient(90deg,var(--blue),var(--blue-dark));
+  color:#fff;
+  padding:35px 15px;
+  text-align:center;
 }
 
-/* TABS */
-.tabs{
-    display:flex;
-    justify-content:center;
-    background:#fff;
-    border-bottom:2px solid var(--blue);
-}
-.tabs button{
-    padding:15px 25px;
-    border:none;
-    background:none;
-    font-weight:bold;
-    cursor:pointer;
-}
-.tabs button.active{
-    color:var(--blue);
-    border-bottom:4px solid var(--blue);
+nav{
+  background:#fff;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,.05);
 }
 
-/* CONTAINER */
+nav a{
+  text-decoration:none;
+  font-weight:bold;
+  color:var(--blue);
+}
+
 .container{
-    max-width:1100px;
-    margin:25px auto;
-    padding:0 15px;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
+  max-width:1100px;
+  margin:30px auto;
+  padding:0 15px;
 }
 
-/* CARD */
-.card{
-    background:#fff;
-    border-radius:10px;
-    box-shadow:0 6px 20px rgba(0,0,0,0.08);
-    padding:15px;
-    display:flex;
-    flex-direction:column;
+.intro{
+  background:#fff;
+  padding:25px;
+  border-radius:var(--radius);
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
 }
 
-.card img{
-    width:100%;
-    height:150px;
-    object-fit:contain;
-    background:#fff;
-    margin-bottom:10px;
-}
+.intro h2{margin-top:0}
 
-.card h3{
-    margin:5px 0;
-}
-
-.code{
-    background:#eef4ff;
-    padding:10px;
-    text-align:center;
-    font-weight:bold;
-    border-radius:6px;
-    margin:10px 0;
-    letter-spacing:2px;
-}
-
-.actions{
-    margin-top:auto;
-    display:flex;
-    gap:8px;
-    flex-wrap:wrap;
-}
-
-.actions button,
-.actions a{
-    flex:1;
-    text-align:center;
-    padding:10px;
-    border:none;
-    border-radius:6px;
-    cursor:pointer;
-    font-weight:bold;
-    text-decoration:none;
-}
-
-.copy{
-    background:var(--blue);
-    color:#fff;
-}
-
-.cart{
-    background:#198754;
-    color:#fff;
-}
-
-.shop{
-    background:#6c757d;
-    color:#fff;
-}
-
-/* KOSZYK */
-#cartBox{
-    max-width:1100px;
-    margin:30px auto;
-    background:#fff;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-.cart-item{
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:8px;
-}
-
-/* FOOTER */
 footer{
-    background:#0b2d5c;
-    color:#fff;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
+  margin-top:50px;
+  background:#0b2d5c;
+  color:#fff;
+  text-align:center;
+  padding:20px;
 }
+footer a{color:#fff}
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>MEGARABATY 🔥</h1>
-    <p>Profesjonalne kody rabatowe – kody dnia i miesiąca</p>
-</header>
-
-<!-- TABS -->
-<div class="tabs">
-    <button class="active" onclick="setTab('all',this)">Wszystkie</button>
-    <button onclick="setTab('day',this)">Kody dnia</button>
-    <button onclick="setTab('month',this)">Kody miesiąca</button>
-</div>
-
-<!-- CODES -->
-<div class="container" id="codes"></div>
-
-<!-- CART -->
-<div id="cartBox">
-    <h2>🛒 Koszyk kodów</h2>
-    <div id="cart"></div>
-    <button class="copy" onclick="copyCart()">Kopiuj wszystkie kody</button>
-</div>
-
-<footer>
-    © 2026 MEGARABATY – najlepsze promocje online
-</footer>
-
-<script>
-const codes = [
-{
-    shop:"Allegro",
-    code:"ALLEGRO10",
-    link:"https://allegro.pl",
-    img:"https://upload.wikimedia.org/wikipedia/commons/5/5a/Allegro.pl_sklep_logo.png",
-    type:"day"
-},
-{
-    shop:"Media Expert",
-    code:"MEDIA20",
-    link:"https://mediaexpert.pl",
-    img:"https://upload.wikimedia.org/wikipedia/commons/7/77/Media_Expert_logo.png",
-    type:"month"
-},
-{
-    shop:"Zalando",
-    code:"ZALANDO15",
-    link:"https://zalando.pl",
-    img:"https://upload.wikimedia.org/wikipedia/commons/2/20/Zalando_Logo.png",
-    type:"day"
-}
-];
-
-let tab="all";
-let cart=[];
-
-const codesDiv=document.getElementById("codes");
-const cartDiv=document.getElementById("cart");
-
-function render(){
-    codesDiv.innerHTML="";
-    codes.filter(c=>tab==="all"||c.type===tab)
-    .forEach(c=>{
-        codesDiv.innerHTML+=`
-        <div class="card">
-            <img src="${c.img}">
-            <h3>${c.shop}</h3>
-            <div class="code">${c.code}</div>
-            <div class="actions">
-                <button class="copy" onclick="copyCode('${c.code}')">Kopiuj</button>
-                <button class="cart" onclick="addCart('${c.shop}','${c.code}')">Koszyk</button>
-                <a class="shop" href="${c.link}" target="_blank">Do sklepu</a>
-            </div>
-        </div>`;
-    });
-}
-
-function setTab(t,btn){
-    tab=t;
-    document.querySelectorAll(".tabs button").forEach(b=>b.classList.remove("active"));
-    btn.classList.add("active");
-    render();
-}
-
-function copyCode(c){
-    navigator.clipboard.writeText(c);
-    alert("Skopiowano: "+c);
-}
-
-function addCart(shop,code){
-    if(!cart.find(i=>i.code===code)){
-        cart.push({shop,code});
-        renderCart();
-    }
-}
-
-function renderCart(){
-    cartDiv.innerHTML="";
-    cart.forEach(i=>{
-        cartDiv.innerHTML+=`
-        <div class="cart-item">
-            ${i.shop} – ${i.code}
-            <button onclick="removeCart('${i.code}')">❌</button>
-        </div>`;
-    });
-}
-
-function removeCart(code){
-    cart=cart.filter(i=>i.code!==code);
-    renderCart();
-}
-
-function copyCart(){
-    if(cart.length===0){ alert("Koszyk pusty"); return;}
-    navigator.clipboard.writeText(cart.map(i=>i.code).join(", "));
-    alert("Skopiowano wszystkie kody");
-}
-
-render();
-</script>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>MEGARABATY – Kody rabatowe dnia i miesiąca</title>
-<meta name="description" content="MEGARABATY – najlepsze kody rabatowe online. Kody dnia, miesiąca i sprawdzone promocje do sklepów internetowych.">
-
-<meta name="theme-color" content="#0d6efd">
-
-<style>
-:root{
---blue:#0d6efd;
---dark:#084298;
---bg:#f4f8ff;
-}
-body{margin:0;font-family:Arial;background:var(--bg);}
-header{background:linear-gradient(90deg,var(--blue),var(--dark));color:#fff;padding:30px;text-align:center}
-.tabs{display:flex;justify-content:center;background:#fff}
-.tabs button{border:none;background:none;padding:15px 25px;font-weight:bold;cursor:pointer}
-.tabs .active{color:var(--blue);border-bottom:4px solid var(--blue)}
-.container{max-width:1200px;margin:30px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding:0 15px}
-.card{background:#fff;border-radius:12px;box-shadow:0 8px 25px rgba(0,0,0,.1);padding:15px;display:flex;flex-direction:column}
-.card img{height:140px;object-fit:contain}
-.code{background:#eaf1ff;padding:10px;text-align:center;font-weight:bold;margin:10px 0;border-radius:6px}
-.actions{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
-.actions button,.actions a{flex:1;padding:10px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;text-decoration:none;text-align:center}
-.copy{background:var(--blue);color:#fff}
-.cart{background:#198754;color:#fff}
-.shop{background:#6c757d;color:#fff}
-#cartBox{max-width:1200px;margin:20px auto;background:#fff;padding:20px;border-radius:10px}
-.cart-item{display:flex;justify-content:space-between;margin-bottom:6px}
-footer{background:#0b2d5c;color:#fff;text-align:center;padding:20px}
-.admin{display:none;max-width:600px;margin:30px auto;background:#fff;padding:20px;border-radius:10px}
-input,select{width:100%;padding:8px;margin-bottom:10px}
-</style>
-</head>
-
-<body>
-
-<header>
-<h1>MEGARABATY 🔥</h1>
-<p>Kody rabatowe dnia i miesiąca – oszczędzaj mądrze</p>
-</header>
-
-<div class="tabs">
-<button class="active" onclick="setTab('all',this)">Wszystkie</button>
-<button onclick="setTab('day',this)">Kody dnia</button>
-<button onclick="setTab('month',this)">Kody miesiąca</button>
-<button onclick="toggleAdmin()">Admin</button>
-</div>
-
-<div class="container" id="codes"></div>
-
-<div id="cartBox">
-<h2>🛒 Koszyk</h2>
-<div id="cart"></div>
-<button class="copy" onclick="copyCart()">Kopiuj wszystkie kody</button>
-</div>
-
-<!-- ADMIN -->
-<div class="admin" id="admin">
-<h2>Panel admina</h2>
-<input id="ashop" placeholder="Sklep">
-<input id="acode" placeholder="Kod">
-<input id="alink" placeholder="Link afiliacyjny">
-<input id="aimg" placeholder="Link do logo">
-<select id="atype">
-<option value="day">Kody dnia</option>
-<option value="month">Kody miesiąca</option>
-</select>
-<button class="copy" onclick="addAdminCode()">Dodaj kod</button>
-</div>
-
-<footer>
-© 2026 MEGARABATY – Profesjonalne kody rabatowe
-</footer>
-
-<script>
-let codes = JSON.parse(localStorage.getItem("codes")) || [
-{shop:"Allegro",code:"ALLEGRO10",link:"https://allegro.pl",img:"https://upload.wikimedia.org/wikipedia/commons/5/5a/Allegro.pl_sklep_logo.png",type:"day"},
-{shop:"Zalando",code:"ZALANDO15",link:"https://zalando.pl",img:"https://upload.wikimedia.org/wikipedia/commons/2/20/Zalando_Logo.png",type:"month"}
-];
-
-let cart=[], tab="all";
-const codesDiv=document.getElementById("codes");
-const cartDiv=document.getElementById("cart");
-
-function render(){
-codesDiv.innerHTML="";
-codes.filter(c=>tab==="all"||c.type===tab).forEach(c=>{
-codesDiv.innerHTML+=`
-<div class="card">
-<img src="${c.img}">
-<h3>${c.shop}</h3>
-<div class="code">${c.code}</div>
-<div class="actions">
-<button class="copy" onclick="copyCode('${c.code}')">Kopiuj</button>
-<button class="cart" onclick="addCart('${c.shop}','${c.code}')">Koszyk</button>
-<a class="shop" href="${c.link}" target="_blank">Do sklepu</a>
-</div>
-</div>`;
-});
-}
-
-function setTab(t,b){tab=t;document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");render();}
-function copyCode(c){navigator.clipboard.writeText(c);alert("Skopiowano "+c);}
-function addCart(s,c){if(!cart.find(x=>x.code===c)){cart.push({s,c});renderCart();}}
-function renderCart(){cartDiv.innerHTML="";cart.forEach(i=>cartDiv.innerHTML+=`<div class="cart-item">${i.s} – ${i.c}<button onclick="removeCart('${i.c}')">❌</button></div>`);}
-function removeCart(c){cart=cart.filter(x=>x.c!==c);renderCart();}
-function copyCart(){navigator.clipboard.writeText(cart.map(x=>x.c).join(", "));alert("Skopiowano kody");}
-
-function toggleAdmin(){document.getElementById("admin").style.display="block";}
-function addAdminCode(){
-codes.push({
-shop:ashop.value,code:acode.value,link:alink.value,img:aimg.value,type:atype.value
-});
-localStorage.setItem("codes",JSON.stringify(codes));
-render();
-}
-
-render();
-</script>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-<meta charset="UTF-8">
-<title>Polityka Prywatności – MEGARABATY</title>
-</head>
-<body>
-
-<h1>Polityka Prywatności</h1>
-
-<p>Serwis MEGARABATY szanuje prywatność użytkowników.</p>
-
-<h2>1. Administrator danych</h2>
-<p>Administratorem danych jest właściciel serwisu MEGARABATY.</p>
-
-<h2>2. Dane osobowe</h2>
-<p>Serwis nie zbiera danych osobowych użytkowników.</p>
-
-<h2>3. Pliki cookies</h2>
-<p>Strona korzysta z plików cookies w celach statystycznych i reklamowych.</p>
-
-<h2>4. Google AdSense</h2>
-<p>Na stronie mogą być wyświetlane reklamy Google AdSense, które wykorzystują pliki cookies do personalizacji reklam.</p>
-
-<h2>5. Linki afiliacyjne</h2>
-<p>Strona zawiera linki afiliacyjne prowadzące do sklepów zewnętrznych.</p>
-
-<h2>6. Kontakt</h2>
-<p>W sprawach związanych z polityką prywatności prosimy o kontakt mailowy.</p>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-<meta charset="UTF-8">
-<title>Regulamin – MEGARABATY</title>
-</head>
-<body>
-
-<h1>Regulamin serwisu MEGARABATY</h1>
-
-<h2>1. Informacje ogólne</h2>
-<p>Serwis MEGARABATY udostępnia informacje o kodach rabatowych.</p>
-
-<h2>2. Odpowiedzialność</h2>
-<p>Serwis nie gwarantuje poprawności ani aktualności kodów rabatowych.</p>
-
-<h2>3. Zewnętrzne serwisy</h2>
-<p>Serwis zawiera linki do stron trzecich, za które nie ponosi odpowiedzialności.</p>
-
-<h2>4. Postanowienia końcowe</h2>
-<p>Korzystanie z serwisu oznacza akceptację regulaminu.</p>
-
-</body>
-</html>
-<p>
-<a href="polityka-prywatnosci.html" style="color:white;">Polityka Prywatności</a> |
-<a href="regulamin.html" style="color:white;">Regulamin</a>
-</p>
-<h2>O MEGARABATY</h2>
-<p>Tutaj tekst… min. 500–800 słów.</p>
-<h2>Jak działają kody rabatowe</h2>
-<p>Treść instruktażowa 400–800 słów</p>
-<h2>Dlaczego warto korzystać z kodów</h2>
-<p>Tekst… dodatkowe akapity</p>
-<section>
-  <h2>O MEGARABATY</h2>
-  <p>MEGARABATY to strona poświęcona kody rabatowym i promocjom online. Naszym celem jest...
-  (tu min. kolejnych ~300–400 słów opisujących historię, cel strony, jak działają kody, jak korzystać itp.)
-  </p>
-</section>
-<section>
-  <h2>Jak działają kody rabatowe</h2>
-  <p>Kody rabatowe pozwalają na obniżenie ceny zakupów w sklepach internetowych...
-  (tu wpisz min. ~300–500 słów o mechanizmie, przykładach, wskazówkach itp.)
-  </p>
-</section>
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MEGARABATY – Kody rabatowe online</title>
-<style>
-    body { font-family: Arial, sans-serif; background-color: #f0f4f8; color: #03396c; margin: 0; padding: 0;}
-    header { background-color: #005b96; color: white; padding: 20px; text-align: center; }
-    nav { background-color: #03396c; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold;}
-    nav a:hover { text-decoration: underline; }
-    section { padding: 20px; max-width: 900px; margin: auto; background-color: white; margin-top: 20px; border-radius: 8px; }
-    h2 { color: #005b96; }
-    footer { background-color: #03396c; color: white; text-align: center; padding: 15px; margin-top: 20px;}
-    .kod { background-color: #e1f5fe; padding: 10px; border-radius: 5px; margin-bottom: 10px; }
-</style>
-</head>
-<body>
-
-<header>
-    <h1>MEGARABATY – Kody rabatowe online</h1>
+  <h1>PROMKI 🔥</h1>
+  <p>Aktualne kody rabatowe i promocje online</p>
 </header>
 
 <nav>
-    <a href="#kody-dnia">Kody dnia</a>
-    <a href="#kody-miesiaca">Kody miesiąca</a>
-    <a href="#o-stronie">O stronie</a>
-    <a href="#kontakt">Kontakt</a>
+  <a href="kody-dnia.html">Kody dnia</a>
+  <a href="kody-miesiaca.html">Kody miesiąca</a>
+  <a href="jak-dzialaja-kody.html">Jak działają kody</a>
+  <a href="o-nas.html">O nas</a>
+  <a href="kontakt.html">Kontakt</a>
 </nav>
 
-<section id="kody-dnia">
-    <h2>Kody dnia</h2>
-    <div class="kod">
-        <strong>Zalando:</strong> KOD20 – 20% rabatu <a href="#">Przejdź do sklepu</a>
-    </div>
-    <div class="kod">
-        <strong>Media Expert:</strong> ME15 – 15% rabatu <a href="#">Przejdź do sklepu</a>
-    </div>
-    <div class="kod">
-        <strong>Allegro:</strong> AL10 – 10% rabatu <a href="#">Przejdź do sklepu</a>
-    </div>
-</section>
+<div class="container">
 
-<section id="kody-miesiaca">
-    <h2>Kody miesiąca</h2>
-    <div class="kod">
-        <strong>Empik:</strong> EMP25 – 25% rabatu <a href="#">Przejdź do sklepu</a>
-    </div>
-    <div class="kod">
-        <strong>eObuwie:</strong> EO20 – 20% rabatu <a href="#">Przejdź do sklepu</a>
-    </div>
-    <div class="kod">
-        <strong>CCC:</strong> CCC15 – 15% rabatu <a href="#">Przejdź do sklepu</a>
-    </div>
-</section>
+  <section class="intro">
+    <h2>Oszczędzaj na zakupach z PROMKI</h2>
+    <p>
+      PROMKI to serwis stworzony z myślą o osobach, które chcą kupować online taniej i mądrzej.
+      Zbieramy aktualne kody rabatowe oraz promocje do popularnych sklepów internetowych działających w Polsce.
+    </p>
+    <p>
+      Codziennie sprawdzamy dostępne oferty, selekcjonujemy najlepsze promocje
+      i prezentujemy je w prosty, czytelny sposób – bez zbędnych reklam i chaosu.
+    </p>
+    <p>
+      Jeśli chcesz szybko znaleźć rabat do swojego ulubionego sklepu,
+      sprawdź <strong><a href="kody-dnia.html">kody dnia</a></strong>
+      lub <strong><a href="kody-miesiaca.html">kody miesiąca</a></strong>.
+    </p>
+  </section>
 
-<section id="o-stronie">
-    <h2>O stronie MEGARABATY</h2>
-    <p>MEGARABATY to serwis poświęcony kodom rabatowym, promocjom i ofertom specjalnym w sklepach internetowych. Naszym głównym celem jest umożliwienie użytkownikom oszczędzania pieniędzy podczas zakupów online poprzez aktualne i sprawdzone kody rabatowe. Każdego dnia sprawdzamy najlepsze promocje w popularnych sklepach takich jak Zalando, Media Expert, Allegro, Empik, eObuwie czy CCC. Dbamy o to, aby wszystkie kody były aktualne i działały w momencie publikacji, co pozwala uniknąć frustracji użytkowników.</p>
-    <p>Strona zawiera zarówno kody dnia, jak i kody miesiąca. Dodatkowo publikujemy instrukcje, jak korzystać z kodów rabatowych, aby maksymalnie wykorzystać potencjalne zniżki. Nasz serwis jest aktualizowany regularnie, aby użytkownicy mogli cieszyć się najlepszymi ofertami w sieci. W MEGARABATY wierzymy, że każdy zakup online może być tańszy, jeśli wie się, gdzie szukać najlepszych promocji.</p>
-    <p>Jesteśmy niezależnym serwisem, który współpracuje z partnerami afiliacyjnymi w celu udostępnienia kodów rabatowych. Wszelkie kliknięcia w linki afiliacyjne wspierają utrzymanie strony i rozwój nowych funkcji, takich jak koszyk kodów czy zakładki tematyczne. Nasza misja jest prosta – pomagać użytkownikom oszczędzać i robić zakupy świadomie, w wygodny sposób i bez przepłacania.</p>
-</section>
-
-<section id="kontakt">
-    <h2>Kontakt</h2>
-    <p>Masz pytania lub chcesz się skontaktować? Napisz do nas na adres: <strong>kontakt@megarabaty.pl</strong></p>
-    <p>Postaramy się odpowiedzieć w ciągu 24 godzin. Jesteśmy otwarci na sugestie dotyczące nowych kodów rabatowych i partnerów do współpracy.</p>
-</section>
-
-<section id="polityka-prywatnosci">
-    <h2>Polityka prywatności</h2>
-    <p>Serwis MEGARABATY szanuje prywatność użytkowników i dba o ochronę ich danych. Nie zbieramy danych osobowych poza tymi, które są niezbędne do realizacji afiliacji. Strona wykorzystuje pliki cookies w celach statystycznych, funkcjonalnych oraz reklamowych. Możliwe jest wyświetlanie reklam Google AdSense, które używają plików cookies w celu personalizacji treści. Polityka prywatności może być aktualizowana.</p>
-</section>
-
-<section id="regulamin">
-    <h2>Regulamin</h2>
-    <p>Korzystając ze strony MEGARABATY, użytkownik akceptuje, że strona publikuje kody rabatowe w celach informacyjnych. Administrator nie odpowiada za niepoprawne lub nieaktualne kody. Wszystkie linki prowadzą do partnerów afiliacyjnych. Zakazane jest kopiowanie treści bez zgody właściciela serwisu. Regulamin może być aktualizowany w każdej chwili, a zmiany będą publikowane na tej stronie.</p>
-</section>
+</div>
 
 <footer>
-    <p>© 2026 MEGARABATY. Wszelkie prawa zastrzeżone.</p>
+  <p>© 2026 PROMKI</p>
+  <p>
+    <a href="polityka-prywatnosci.html">Polityka prywatności</a> |
+    <a href="regulamin.html">Regulamin</a>
+  </p>
 </footer>
 
 </body>
+</html><!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O nas – PROMKI</title>
+<meta name="description" content="Dowiedz się, czym jest serwis PROMKI i jak pomagamy oszczędzać na zakupach online.">
+</head>
+
+<body style="font-family:Arial;background:#f4f8ff;margin:0;padding:20px">
+
+<h1>O serwisie PROMKI</h1>
+
+<p>
+PROMKI to niezależny serwis internetowy poświęcony wyszukiwaniu i prezentowaniu
+aktualnych kodów rabatowych oraz promocji dostępnych w polskich sklepach internetowych.
+Naszym celem jest pomaganie użytkownikom w oszczędzaniu pieniędzy podczas codziennych zakupów online.
+</p>
+
+<p>
+Strona powstała z potrzeby uproszczenia procesu szukania promocji.
+Zamiast przeglądać wiele stron i newsletterów, użytkownik może w jednym miejscu
+znaleźć sprawdzone kody rabatowe i aktualne oferty.
+</p>
+
+<p>
+Nie prowadzimy sprzedaży produktów ani usług.
+PROMKI pełni rolę informacyjną – prezentujemy promocje, które są dostępne w sklepach zewnętrznych.
+Część linków może mieć charakter afiliacyjny, co oznacza, że możemy otrzymać prowizję
+za przekierowanie użytkownika do sklepu partnerskiego.
+</p>
+
+<p>
+Dbamy o przejrzystość, prosty interfejs oraz regularną aktualizację treści.
+Serwis jest rozwijany długoterminowo z myślą o jakości i zgodności z wytycznymi wyszukiwarek.
+</p>
+
+<p>
+Jeśli masz pytania lub sugestie dotyczące działania strony, zapraszamy do kontaktu.
+</p>
+
+<p><a href="index.html">← Wróć na stronę główną</a></p>
+
+</body>
 </html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jak działają kody rabatowe – PROMKI</title>
+<meta name="description" content="Dowiedz się, jak działają kody rabatowe i jak z nich bezpiecznie korzystać podczas zakupów online.">
+</head>
 
+<body style="font-family:Arial;background:#f4f8ff;margin:0;padding:20px">
 
+<h1>Jak działają kody rabatowe</h1>
+
+<p>
+Kody rabatowe to specjalne oznaczenia, które umożliwiają uzyskanie zniżki
+podczas zakupów w sklepach internetowych. Mogą one obniżać cenę zamówienia
+o określony procent, kwotę lub oferować dodatkowe korzyści, takie jak darmowa dostawa.
+</p>
+
+<p>
+Aby skorzystać z kodu rabatowego, należy skopiować go ze strony PROMKI,
+przejść do wybranego sklepu, dodać produkty do koszyka,
+a następnie wkleić kod w odpowiednie pole przed finalizacją zamówienia.
+</p>
+
+<p>
+Warto zwrócić uwagę na warunki promocji.
+Niektóre kody obowiązują tylko dla nowych klientów,
+określonych kategorii produktów lub przy minimalnej wartości zamówienia.
+</p>
+
+<p>
+Korzystanie z kodów rabatowych jest bezpieczne i nie wymaga podawania
+dodatkowych danych poza tymi, które są standardowo wymagane przez sklep internetowy.
+</p>
+
+<p>
+PROMKI publikuje informacje o promocjach w celach informacyjnych.
+Warunki ofert mogą ulec zmianie bez wcześniejszego powiadomienia przez sklepy.
+</p>
+
+<p><a href="index.html">← Wróć na stronę główną</a></p>
+
+</body>
+</html>
 
