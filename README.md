@@ -8,15 +8,15 @@
 <section>
 <h2>O serwisie MEGARABATY</h2>
 
-<p>MEGARABATY to niezależny serwis internetowy poświęcony wyszukiwaniu, publikowaniu oraz analizowaniu kodów rabatowych i promocji dostępnych w sklepach internetowych. Naszym celem jest pomaganie użytkownikom w oszczędzaniu pieniędzy podczas zakupów online poprzez dostęp do aktualnych, sprawdzonych i czytelnie opisanych ofert promocyjnych.</p>
+<p>PROMKI to niezależny serwis internetowy poświęcony wyszukiwaniu, publikowaniu oraz analizowaniu kodów rabatowych i promocji dostępnych w sklepach internetowych. Naszym celem jest pomaganie użytkownikom w oszczędzaniu pieniędzy podczas zakupów online poprzez dostęp do aktualnych, sprawdzonych i czytelnie opisanych ofert promocyjnych.</p>
 
 <p>Strona powstała z myślą o osobach, które chcą kupować świadomie i nie przepłacać. Każdego dnia monitorujemy popularne sklepy internetowe, porównujemy dostępne promocje oraz selekcjonujemy kody rabatowe, które mogą realnie obniżyć wartość koszyka zakupowego. Publikujemy zarówno kody dnia, jak i oferty długoterminowe, dzięki czemu użytkownicy mogą wracać do serwisu regularnie.</p>
 
-<p>W MEGARABATY stawiamy na przejrzystość i prostotę. Każdy kod rabatowy jest jasno opisany, a użytkownik może w łatwy sposób skopiować kod lub przejść bezpośrednio do sklepu partnerskiego. Staramy się ograniczać zbędne elementy i skupić się na tym, co najważniejsze – realnej wartości dla odwiedzających.</p>
+<p>W PROMKI stawiamy na przejrzystość i prostotę. Każdy kod rabatowy jest jasno opisany, a użytkownik może w łatwy sposób skopiować kod lub przejść bezpośrednio do sklepu partnerskiego. Staramy się ograniczać zbędne elementy i skupić się na tym, co najważniejsze – realnej wartości dla odwiedzających.</p>
 
 <p>Serwis nie jest oficjalnym sklepem internetowym i nie prowadzi sprzedaży produktów. Działa jako platforma informacyjna, która zbiera i prezentuje dostępne promocje. Część linków może mieć charakter afiliacyjny, co oznacza, że w przypadku przejścia do sklepu i dokonania zakupu możemy otrzymać prowizję. Nie ma to jednak wpływu na cenę produktu dla użytkownika.</p>
 
-<p>MEGARABATY to projekt rozwijany z myślą o długoterminowej wartości. Regularnie aktualizujemy treści, dodajemy nowe sklepy oraz dbamy o zgodność strony z obowiązującymi przepisami i wytycznymi wyszukiwarek internetowych.</p>
+<p>PROMKI to projekt rozwijany z myślą o długoterminowej wartości. Regularnie aktualizujemy treści, dodajemy nowe sklepy oraz dbamy o zgodność strony z obowiązującymi przepisami i wytycznymi wyszukiwarek internetowych.</p>
 </section>
 <section>
 <h2>Jak działają kody rabatowe</h2>
@@ -27,7 +27,7 @@
 
 <p>Niektóre kody rabatowe są ograniczone czasowo lub przeznaczone tylko dla określonych kategorii produktów. Z tego powodu warto zawsze zapoznać się z opisem oferty oraz warunkami promocji. Jeśli kod nie działa, możliwe że wygasł lub nie spełnia warunków promocji.</p>
 
-<p>W MEGARABATY staramy się publikować wyłącznie oferty, które są aktualne w momencie dodania. Należy jednak pamiętać, że sklepy internetowe mogą zmieniać warunki promocji bez wcześniejszego powiadomienia.</p>
+<p>W PROMKI staramy się publikować wyłącznie oferty, które są aktualne w momencie dodania. Należy jednak pamiętać, że sklepy internetowe mogą zmieniać warunki promocji bez wcześniejszego powiadomienia.</p>
 
 <p>Korzystanie z kodów rabatowych jest całkowicie bezpieczne i nie wymaga podawania dodatkowych danych osobowych poza tymi, które są standardowo wymagane przez dany sklep internetowy.</p>
 </section>
